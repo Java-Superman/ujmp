@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<test id='20130201-113303' host='StevenLee.CLG.Local' startDate='Fri Feb 01 11:29:03 CST 2013' endDate='Fri Feb 01 11:33:03 CST 2013' startTime='1359739743278' duration='240053'>
+  <threads name='THREAD - User Loop' count='30'>
+    <duration avg='219731.27' min='51164' max='239818' std='32459.99' />
+    <iterations avg='3.07' min='1' max='4' std='0.51' />
+  </threads>
+  <sample name='/achievements/avatar' requests='91' errors='0'>
+    <time avg='49.52' min='9' max='566' std='66.79' />
+    <bytes avg='4119.45' min='2977' max='4697' std='786.66' />
+    <latency avg='28.49' min='2' max='557' std='64.34' />
+  </sample>
+  <sample name='/achievements/avatars/customizations/{AvatarID}' requests='92' errors='0'>
+    <time avg='154.64' min='48' max='814' std='196.15' />
+    <bytes avg='5154.85' min='4006' max='5726' std='784.70' />
+    <latency avg='141.55' min='41' max='806' std='197.26' />
+  </sample>
+  <sample name='/achievements/student/avatars' requests='92' errors='0'>
+    <time avg='51.96' min='9' max='622' std='67.16' />
+    <bytes avg='4127.66' min='2928' max='4724' std='820.28' />
+    <latency avg='31.45' min='1' max='572' std='66.19' />
+  </sample>
+  <sample name='/achievements/unlocked - NOT FRESH' requests='92' errors='0'>
+    <time avg='67.42' min='29' max='764' std='80.69' />
+    <bytes avg='4289.15' min='2708' max='5038' std='912.87' />
+    <latency avg='44.63' min='21' max='757' std='81.93' />
+  </sample>
+  <sample name='/game/match/cometd/ - register' requests='88' errors='0'>
+    <time avg='90.40' min='44' max='174' std='27.80' />
+    <bytes avg='4549.70' min='3528' max='5095' std='718.98' />
+    <latency avg='70.97' min='36' max='151' std='20.42' />
+  </sample>
+  <sample name='/game/match/cometd/connect - complete (1)' requests='88' errors='0'>
+    <time avg='27.62' min='8' max='98' std='22.07' />
+    <bytes avg='3462.12' min='3149' max='3626' std='207.79' />
+    <latency avg='3.06' min='1' max='18' std='2.71' />
+  </sample>
+  <sample name='/game/match/cometd/connect - complete (2)' requests='88' errors='0'>
+    <time avg='4085.24' min='32' max='10187' std='2933.39' />
+    <bytes avg='3902.93' min='3152' max='4078' std='221.39' />
+    <latency avg='4048.70' min='8' max='10170' std='2935.63' />
+  </sample>
+  <sample name='/game/match/cometd/connect - complete (3)' requests='1' errors='0'>
+    <time avg='110.00' min='110' max='110' std='0.00' />
+    <bytes avg='3539.00' min='3539' max='3539' std='0.00' />
+    <latency avg='87.00' min='87' max='87' std='0.00' />
+  </sample>
+  <sample name='/game/match/cometd/disconnect' requests='88' errors='0'>
+    <time avg='40.16' min='9' max='100' std='21.10' />
+    <bytes avg='4778.73' min='4293' max='4963' std='227.22' />
+    <latency avg='3.57' min='1' max='17' std='2.25' />
+  </sample>
+  <sample name='/game/match/cometd/handshake' requests='88' errors='0'>
+    <time avg='21.77' min='9' max='113' std='18.88' />
+    <bytes avg='4206.85' min='3160' max='4763' std='737.10' />
+    <latency avg='2.24' min='1' max='6' std='1.02' />
+  </sample>
+  <sample name='/game/play/cometd/ - done' requests='62' errors='0'>
+    <time avg='18.94' min='8' max='78' std='18.84' />
+    <bytes avg='4937.90' min='4414' max='5001' std='87.10' />
+    <latency avg='2.65' min='1' max='34' std='4.22' />
+  </sample>
+  <sample name='/game/play/cometd/ - init' requests='88' errors='0'>
+    <time avg='39.01' min='9' max='92' std='18.33' />
+    <bytes avg='5624.05' min='5017' max='5820' std='241.09' />
+    <latency avg='5.12' min='1' max='22' std='4.09' />
+  </sample>
+  <sample name='/game/play/cometd/ - playGame' requests='1858' errors='1'>
+    <time avg='22.12' min='8' max='258' std='20.17' />
+    <bytes avg='5426.27' min='4505' max='6935' std='292.47' />
+    <latency avg='2.40' min='0' max='87' std='2.85' />
+  </sample>
+  <sample name='/game/play/cometd/ - ready' requests='88' errors='0'>
+    <time avg='39.09' min='10' max='99' std='20.05' />
+    <bytes avg='5285.77' min='4567' max='6876' std='355.85' />
+    <latency avg='3.93' min='1' max='19' std='2.82' />
+  </sample>
+  <sample name='/game/play/cometd/connect - gameReconciled (1)' requests='62' errors='0'>
+    <time avg='3176.11' min='475' max='5345' std='1069.74' />
+    <bytes avg='6322.81' min='5293' max='6416' std='167.77' />
+    <latency avg='3142.26' min='468' max='5301' std='1068.27' />
+  </sample>
+  <sample name='/game/play/cometd/connect - gameStart (1)' requests='88' errors='0'>
+    <time avg='128.83' min='9' max='7960' std='839.99' />
+    <bytes avg='6130.82' min='4896' max='6756' std='532.54' />
+    <latency avg='96.58' min='1' max='7931' std='840.14' />
+  </sample>
+  <sample name='/game/play/cometd/connect - gameStart (2)' requests='87' errors='0'>
+    <time avg='6680.90' min='18' max='7978' std='2780.08' />
+    <bytes avg='5113.82' min='4417' max='6484' std='441.93' />
+    <latency avg='6652.57' min='1' max='7971' std='2779.53' />
+  </sample>
+  <sample name='/game/play/cometd/connect - gameStart (3)' requests='13' errors='0'>
+    <time avg='6653.85' min='20' max='7943' std='2828.99' />
+    <bytes avg='5120.31' min='4704' max='6066' std='404.86' />
+    <latency avg='6628.38' min='3' max='7912' std='2825.58' />
+  </sample>
+  <sample name='/game/play/cometd/connect - gameStart (4)' requests='2' errors='0'>
+    <time avg='7920.50' min='7915' max='7926' std='5.50' />
+    <bytes avg='4905.00' min='4889' max='4921' std='16.00' />
+    <latency avg='7889.00' min='7882' max='7896' std='7.00' />
+  </sample>
+  <sample name='/game/play/cometd/connect - playGame' requests='1794' errors='4'>
+    <time avg='676.28' min='9' max='4123' std='538.69' />
+    <bytes avg='5115.71' min='4383' max='6991' std='121.76' />
+    <latency avg='655.99' min='0' max='4104' std='539.12' />
+  </sample>
+  <sample name='/game/play/cometd/connect - problems (1)' requests='88' errors='0'>
+    <time avg='34.57' min='9' max='100' std='18.29' />
+    <bytes avg='4957.73' min='4394' max='14733' std='1063.29' />
+    <latency avg='2.85' min='1' max='18' std='2.28' />
+  </sample>
+  <sample name='/game/play/cometd/connect - problems (2)' requests='87' errors='0'>
+    <time avg='172.93' min='23' max='938' std='190.82' />
+    <bytes avg='15375.40' min='14030' max='15957' std='530.31' />
+    <latency avg='141.39' min='3' max='882' std='186.44' />
+  </sample>
+  <sample name='/game/play/cometd/disconnect' requests='62' errors='0'>
+    <time avg='36.69' min='8' max='111' std='22.43' />
+    <bytes avg='5032.35' min='4494' max='5082' std='84.05' />
+    <latency avg='3.11' min='1' max='14' std='2.41' />
+  </sample>
+  <sample name='/game/play/cometd/handshake' requests='88' errors='0'>
+    <time avg='33.22' min='8' max='95' std='17.37' />
+    <bytes avg='4998.55' min='4514' max='5183' std='227.19' />
+    <latency avg='2.45' min='1' max='7' std='1.32' />
+  </sample>
+  <sample name='/game/start.do?modeId=1' requests='92' errors='1'>
+    <time avg='29.95' min='14' max='151' std='19.57' />
+    <bytes avg='8401.75' min='6498' max='9000' std='807.48' />
+    <latency avg='10.55' min='0' max='35' std='4.97' />
+  </sample>
+  <sample name='/j_security_check' requests='30' errors='0'>
+    <time avg='597.10' min='83' max='1030' std='362.81' />
+    <bytes avg='2434.87' min='2430' max='2439' std='2.38' />
+    <latency avg='587.37' min='76' max='1023' std='363.14' />
+  </sample>
+  <sample name='/learningObject/game-level-1-3-AddAndSubtractTens/html/index.html' requests='88' errors='0'>
+    <time avg='25.57' min='9' max='126' std='23.44' />
+    <bytes avg='5587.45' min='4464' max='6184' std='792.98' />
+    <latency avg='3.18' min='1' max='11' std='1.68' />
+  </sample>
+  <sample name='/login' requests='30' errors='0'>
+    <time avg='11.40' min='9' max='28' std='3.70' />
+    <bytes avg='25059.63' min='25058' max='25062' std='1.11' />
+    <latency avg='1.63' min='1' max='4' std='0.71' />
+  </sample>
+  <sample name='/loginStats' requests='30' errors='0'>
+    <time avg='13.63' min='8' max='52' std='8.35' />
+    <bytes avg='5685.63' min='5682' max='5688' std='1.40' />
+    <latency avg='2.53' min='1' max='13' std='2.16' />
+  </sample>
+  <sample name='/mmbowl/liveaction/record/0/comment/null?_=1357676298511' requests='92' errors='0'>
+    <time avg='38.58' min='16' max='115' std='18.97' />
+    <bytes avg='4103.29' min='2903' max='4699' std='820.26' />
+    <latency avg='16.29' min='7' max='38' std='7.72' />
+  </sample>
+  <sample name='/reports/mmbowlleaderboard?state=&doDistrictFilter=false&doSchoolFilter=true&_=1357676298511' requests='92' errors='0'>
+    <time avg='60.39' min='28' max='292' std='37.73' />
+    <bytes avg='4212.42' min='3013' max='4809' std='820.30' />
+    <latency avg='37.86' min='20' max='285' std='37.15' />
+  </sample>
+  <sample name='/student/home.do' requests='92' errors='0'>
+    <time avg='201.08' min='150' max='752' std='68.87' />
+    <bytes avg='14706.54' min='13494' max='15333' std='841.61' />
+    <latency avg='184.86' min='135' max='708' std='66.39' />
+  </sample>
+  <sample name='/user/getPreferences' requests='183' errors='0'>
+    <time avg='42.14' min='25' max='135' std='18.78' />
+    <bytes avg='3855.67' min='2617' max='4463' std='814.77' />
+    <latency avg='23.45' min='17' max='101' std='7.88' />
+  </sample>
+  <sample name='/welcome.do' requests='30' errors='0'>
+    <time avg='258.47' min='148' max='371' std='59.24' />
+    <bytes avg='6457.70' min='6456' max='6460' std='1.00' />
+    <latency avg='214.23' min='111' max='332' std='57.79' />
+  </sample>
+  <sample name='Debug Sampler' requests='92' errors='0'>
+    <time avg='22.45' min='7' max='88' std='16.49' />
+    <bytes avg='5721.22' min='2333' max='7455' std='2357.90' />
+    <latency avg='0.00' min='0' max='0' std='0.00' />
+  </sample>
+  <totals requests='6126' errors='6'>
+    <time avg='432.83' min='7' max='10187' std='1183.44' />
+    <bytes avg='5513.29' min='2333' max='25062' std='2326.60' />
+    <latency avg='410.87' min='0' max='10170' std='1182.09' />
+  </totals>
+</test>
